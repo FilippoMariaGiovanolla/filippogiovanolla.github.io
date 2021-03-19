@@ -1,6 +1,8 @@
 body {
     margin:0;
     background-color: rgba(227, 241, 255, 35%);
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -21,6 +23,9 @@ header {
     box-shadow: 1px 4px 10px 0px #000000;
     padding: 0;
     margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 img {
@@ -31,6 +36,7 @@ img {
 .main {
     display: flex;
     flex-direction: column;
+    padding-top: 170px;
 }
 
 .flex {
@@ -80,10 +86,15 @@ img {
 
 ul{
     list-style-type: none;
+    margin-bottom: 0px;
 }
 
 a {
     text-decoration: none;
-    color:turquoise;
-    
+    color:turquoise;    
+}
+
+.c{
+    color: rgba(0,0,205,70%);
+    font-size: 25px;
 }
